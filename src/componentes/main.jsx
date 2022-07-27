@@ -18,11 +18,11 @@ function Main (){
 
         <div className='form'>
         <form>
-        <label className='buttonForm'>Seu Nome
+        <label className='buttonFormMain'>Seu Nome
             <input type="text" />
         </label>
 
-        <label className='buttonForm'>E-mail
+        <label className='buttonFormMain'>E-mail
             <input type="text" />
         </label>
 
