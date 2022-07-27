@@ -1,0 +1,85 @@
+ul{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:10%;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: #888888;
+    opacity: 1;
+    margin-bottom: 40px;
+}
+
+.buttonGrid{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    font-family: 'Roboto', sans-serif;
+    height:30px;
+    font-size: 16px;
+    color: #888888;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+.informaçõesGerais{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    opacity: 1;
+    color: #888888;
+    font-family: 'Roboto', sans-serif;
+}
+
+.formularioPerguntas{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonGridProdutos{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    font-family: 'Roboto', sans-serif;
+    height:30px;
+    font-size: 16px;
+    color: #888888;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    opacity: 1;
+    margin-bottom: 10rem;
+}
+
+.labeFormGrid{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+
+.buttonFormEnvio{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    font-family: 'Roboto', sans-serif;
+    height:30px;
+    width: 40%;
+    font-size: 16px;
+    color: #888888;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    opacity: 1;
+    margin: 30px;
+}
+
+.buttonFormFinal{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
