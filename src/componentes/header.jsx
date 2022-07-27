@@ -13,20 +13,20 @@ return (
             <p>Todos os produtos desta lista foram selecionados a partir da sua navegação. Aproveite!</p>
         </div>
         <div className='buttonHeader'>
-            <button>
-                Conheça a Linx
+            <button id='button'>
+               <p id='textButton'>Conheça a Linx</p> 
             </button>
 
-            <button>
-                Ajude o algorítimo
+            <button id='button'>
+            <p id='textButton'> Ajude o algorítimo</p>
             </button>
 
-            <button>
-                Seus produtos
+            <button id='button'>
+            <p id='textButton'>   Seus produtos </p>
             </button>
 
-            <button>
-                Compartilhe
+            <button id='button'>
+              <p id='textButton'> Compartilhe </p>  
             </button>
         </div>
     </div>
