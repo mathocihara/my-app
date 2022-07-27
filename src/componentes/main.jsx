@@ -6,8 +6,8 @@ function Main (){
     return (
         <main>
             <div className='container'>
-            <div className='text'>
-        <h3>Ajude o algorítimo a ser mais certeiro</h3>
+            <div className='textBlock'>
+        <h4>Ajude o algorítimo a ser mais certeiro</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultricies tellus nec mi porta convallis sollicitudin eu urna. Mauris rhoncus erat sed interdum 
         dignissim. Suspendisse semper pretium consectetur. Praesent bibendum arcu risus, sit amet iaculis ex tempus quis. Cras et erat ut tellus vulputate tincidunt. Aenean
         lacinia euismod augue vel egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum vel urna tortor. Vivamus et arcu 
@@ -31,17 +31,18 @@ function Main (){
         </label>
         </form>
 
-        <div>
+        <div className='genero'>
+            
         <label >Masculino
-            <input type="radio" name="" id="" />
+            <input type="radio" name="g" id="" />
         </label>
-
+            
         <label >Feminino
-            <input type="radio" name="" id="" />
+            <input type="radio" name="g" id="" />
         </label>
         </div>
 
-        <button>Enviar</button>
+        <button className='buttonSubmit'>Enviar</button>
         </div>
         </div>
         </main>
