@@ -1,10 +1,13 @@
 import React from 'react';
-
+import './footer.css'
 function Footer (){
 
 return(
-
-    <p>Testando suas habilidades em HTML, CSS e JS. Linx Impulse 2019</p>
+<div className='footer'>
+    <p>Testando suas habilidades em HTML, CSS e JS.</p>
+    <p>Linx Impulse</p>
+    <p>2019</p>
+</div>
 )
 
 }
