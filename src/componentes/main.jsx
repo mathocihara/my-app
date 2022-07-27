@@ -1,11 +1,12 @@
 import React from 'react';
-
+import './Main.css'
 function Main (){
 
 
     return (
         <main>
-            <div>
+            <div className='container'>
+            <div className='text'>
         <h3>Ajude o algorítimo a ser mais certeiro</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultricies tellus nec mi porta convallis sollicitudin eu urna. Mauris rhoncus erat sed interdum 
         dignissim. Suspendisse semper pretium consectetur. Praesent bibendum arcu risus, sit amet iaculis ex tempus quis. Cras et erat ut tellus vulputate tincidunt. Aenean
@@ -15,22 +16,22 @@ function Main (){
         diam. Morbi viverra, magna ac luctus commodo, odio ante suscipit libero, at mattis augue est vel metus.</p>
         </div>
 
-        <div>
+        <div className='form'>
         <form>
-        <label >Seu Nome
+        <label className='buttonForm'>Seu Nome
             <input type="text" />
         </label>
 
-        <label >E-mail
+        <label className='buttonForm'>E-mail
             <input type="text" />
         </label>
 
-        <label >CPF
+        <label className='buttonForm'>CPF
             <input type="text" />
         </label>
         </form>
 
-
+        <div>
         <label >Masculino
             <input type="radio" name="" id="" />
         </label>
@@ -38,10 +39,11 @@ function Main (){
         <label >Feminino
             <input type="radio" name="" id="" />
         </label>
+        </div>
 
         <button>Enviar</button>
         </div>
-
+        </div>
         </main>
 
     );
