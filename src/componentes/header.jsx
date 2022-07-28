@@ -6,6 +6,7 @@ return (
 
 
 <header>
+    <div className='headerBackground'></div>
     <div className='header'>
         <div className='text'>
             <p>uma seleção de produtos</p>
