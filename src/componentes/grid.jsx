@@ -28,18 +28,16 @@ return (
   {produtos.map(produto =>{
   return(
   <div className="card" key={produto.id}  >
-    <strong>Nome Produto</strong>
+    <img src={produto.image} alt="" />
     <p>{produto.name}</p>
-    <strong>Descrição do Produto</strong>
-    <p>{produto.description}</p>
-    <strong>Valor Antigo</strong>
-    <p>{produto.oldPrice}</p>
-    <strong>Valor</strong>
-    <p>{produto.price}</p>
-    <strong>Quantidade de Parcelas</strong>
-    <p>{produto.installments.count}</p>
-    <strong> Parcelas</strong>
-    <p>{produto.installments.value}</p>
+    <p> {produto.description}</p>
+    <p>De: R${produto.oldPrice}</p>
+    <h4>Por: R${produto.price}</h4>
+    <div className='parcela'>
+    <p> ou {produto.installments.count}x </p>
+    
+    <p> de R${produto.installments.value}</p>
+    </div>
     <button className='buttonGrid'>Comprar</button>
     </div>
   
